@@ -1,0 +1,21 @@
+layer1.W(np.int64(1), np.int64(3)): analytic=+0.00533067 numeric=+0.00533067 rel_err=5.30e-10
+layer1.W(np.int64(1), np.int64(0)): analytic=-0.03760065 numeric=-0.03760065 rel_err=1.05e-10
+layer1.W(np.int64(1), np.int64(4)): analytic=-0.07976547 numeric=-0.07976547 rel_err=6.15e-11
+layer1.W(np.int64(0), np.int64(0)): analytic=+0.00891274 numeric=+0.00891274 rel_err=8.41e-10
+layer1.W(np.int64(0), np.int64(0)): analytic=+0.00891274 numeric=+0.00891274 rel_err=8.41e-10
+layer1.b(np.int64(0), np.int64(1)): analytic=+0.01827135 numeric=+0.01827135 rel_err=1.94e-10
+layer1.b(np.int64(0), np.int64(4)): analytic=+0.02808453 numeric=+0.02808453 rel_err=8.81e-11
+layer1.b(np.int64(0), np.int64(3)): analytic=+0.04480935 numeric=+0.04480935 rel_err=8.91e-11
+layer1.b(np.int64(0), np.int64(4)): analytic=+0.02808453 numeric=+0.02808453 rel_err=8.81e-11
+layer1.b(np.int64(0), np.int64(4)): analytic=+0.02808453 numeric=+0.02808453 rel_err=8.81e-11
+layer2.W(np.int64(4), np.int64(0)): analytic=-0.07524340 numeric=-0.07524340 rel_err=1.22e-11
+layer2.W(np.int64(2), np.int64(1)): analytic=-0.07067900 numeric=-0.07067900 rel_err=2.12e-11
+layer2.W(np.int64(1), np.int64(2)): analytic=-0.00111016 numeric=-0.00111016 rel_err=9.28e-11
+layer2.W(np.int64(0), np.int64(2)): analytic=-0.00030920 numeric=-0.00030920 rel_err=6.26e-09
+layer2.W(np.int64(3), np.int64(0)): analytic=-0.07012687 numeric=-0.07012687 rel_err=2.49e-11
+layer2.b(np.int64(0), np.int64(2)): analytic=-0.00381741 numeric=-0.00381741 rel_err=3.47e-09
+layer2.b(np.int64(0), np.int64(1)): analytic=-0.04225802 numeric=-0.04225802 rel_err=1.47e-10
+layer2.b(np.int64(0), np.int64(2)): analytic=-0.00381741 numeric=-0.00381741 rel_err=3.47e-09
+layer2.b(np.int64(0), np.int64(2)): analytic=-0.00381741 numeric=-0.00381741 rel_err=3.47e-09
+layer2.b(np.int64(0), np.int64(0)): analytic=+0.04607542 numeric=+0.04607542 rel_err=6.03e-11
+Max relative error = 6.26e-09 -> PASS (< 1e-6)
